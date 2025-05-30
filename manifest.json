@@ -1,11 +1,11 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
-    "start_url": "",
-    "display": "",
-    "background_color": "",
-    "theme_color": "",
+    "name": "Lab8_MelissaNew",
+    "short_name": "Melissa",
+    "description": "Lab 8 project for CSE110 - demonstrating PWA setup",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4A90E2",
     "icons": [
       {
         "src": "/assets/images/icons/icon-192x192.png",
