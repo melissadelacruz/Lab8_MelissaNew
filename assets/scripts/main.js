@@ -50,9 +50,9 @@ function initializeServiceWorker() {
     window.addEventListener('load', () => {
       // B3: Register the Service Worker file
       navigator.serviceWorker.register('./sw.js')
-        .then((registration) => {
+        .then(() => {
           // B4: Successfully registered
-          console.log('Service Worker registered with scope:', registration.scope);
+          console.log('Service Worker registered:');
         })
         .catch((error) => {
           // B5: Registration failed
